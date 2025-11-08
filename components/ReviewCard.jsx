@@ -15,7 +15,7 @@ export default function ReviewCard({ review, name, jobRole, avatar }) {
         duration-200
       "
     >
-      <p className="text-lg">“{review}”</p>
+      <p className="text-base">“{review}”</p>
 
       <div className="flex items-center gap-3 mt-auto">
         <img

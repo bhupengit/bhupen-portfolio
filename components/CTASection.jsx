@@ -6,7 +6,7 @@ import { FlickeringGrid } from "./ui/flickering-grid";
 
 export default function CTASection() {
   return (
-    <section className="relative w-full overflow-hidden">
+    <section className="relative w-full overflow-hidden py-16">
       <div className="absolute left-1/2 -translate-x-1/2">
         <FlickeringGrid
           className="relative inset-0 z-0 [mask-image:radial-gradient(400px_circle_at_center,white,transparent)]"
@@ -19,7 +19,7 @@ export default function CTASection() {
           width={1000}
         />
       </div>
-      <div className="px-4 py-8 md:px-5 md:py-10 relative z-10 h-[40vh]">
+      <div className="px-4 py-8 md:px-5 md:py-10 relative z-10">
         <div className="flex flex-col items-center text-center gap-4 h-full">
           <div className="space-y-3">
             <h1 className="font-serif text-3xl md:text-4xl">

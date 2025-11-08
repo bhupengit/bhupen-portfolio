@@ -37,47 +37,27 @@ export const workExperience = [
 
 export const reviews = [
   {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
+    name: "Monika Patel",
+    jobRole: "QA Automation Engineer",
     review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
+      "I’ve had the pleasure of working with Bhupendra, an exceptional Senior Android Developer who consistently delivers high-quality results. He is hardworking, and deeply committed to writing clean, efficient, and reliable code. Bhupendra approaches every project with great attention to detail and a strong problem-solving mindset. He is also a great team player who’s always ready to support and share knowledge with others. Any team would be lucky to have Bhupendra, a true professional with both skill and passion for Android development.",
+    avatar: "./monika.jpeg",
   },
   {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
+    name: "Ashwani Singla",
+    jobRole: "Senior Software Engineer",
     review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
+      "I had the opportunity to work with Bhupendra for about a year on a project. Although we worked remotely, his professionalism and technical expertise as a developer were clearly evident. He consistently delivered high-quality work on time and communicated effectively throughout the project. I’d gladly recommend him for any future opportunities.",
+    avatar: "./ashwin.jpeg",
   },
   {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
+    name: "Faruk Khan",
+    jobRole: "Software Development Engineer",
     review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
+      "It’s been a pleasure working with you, Bhupendra. Your communication skills and collaborative spirit have always helped create a strong bond within the team. Even while working remotely, it never felt like we were apart. Truly grateful for the valuable experiences.",
+    avatar: "./farukh.jpeg",
   },
-  {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
-    review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
-  },
-  {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
-    review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
-  },
-  {
-    name: "Rituraj Jha",
-    jobRole: "Design Engineer",
-    review:
-      "Working with bhupendra was very good, his problem solving skills are too sharp.",
-    avatar: "./bhupen-pfp.svg",
-  },
+  
 ];
 
 export const projects = [
