@@ -10,11 +10,15 @@ function Navbar() {
         <div className="flex items-center justify-between gap-4">
           <p className="font-serif text-2xl">Bhupen</p>
           <div className="flex gap-3 items-center">
-            <Button asChild className="cursor-pointer" size="lg">
-              <Link target="blank" href={"https://cal.com/bhupen/30min"}>
+            <Link href="https://cal.com/bhupen/30min" target="_blank">
+              <Button
+                className="cursor-pointer flex items-center gap-2"
+                size="lg"
+              >
+                <img src="./bhupen-pfp.svg" alt="Profile" className="w-6 h-6" />
                 Book a Call
-              </Link>
-            </Button>
+              </Button>
+            </Link>
             <ThemeToggler />
           </div>
         </div>
