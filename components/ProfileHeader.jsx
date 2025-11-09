@@ -9,16 +9,12 @@ export default function ProfileHeader() {
       <img
         src="/banner-1.jpg"
         alt="Banner"
-        className="absolute inset-0  object-cover mask-b-from-75% mask-t-from-75% mask-l-from-75% mask-r-from-75% opacity-20 z-0 pointer-events-none blur-xs"
+        className="absolute inset-0  object-cover mask-b-from-75% mask-t-from-75% mask-l-from-75% mask-r-from-75% opacity-20 z-0 pointer-events-none"
       />
 
       <div className="mt-20 relative z-20 w-full px-4 py-8 md:px-5 md:py-12 space-y-4">
         <div className="flex flex-col gap-4">
-          <img
-            src="./bhupen-pfp.svg"
-            className="w-32 h-32 border-4  rounded-full border-foreground/10"
-            alt=""
-          />
+          <img src="./bhupen-pfp.svg" className="w-32 h-32" alt="" />
 
           <div className="flex  flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="flex flex-col gap-2">

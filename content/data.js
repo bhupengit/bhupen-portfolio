@@ -42,13 +42,17 @@ export const reviews = [
     review:
       "I’ve had the pleasure of working with Bhupendra, an exceptional Senior Android Developer who consistently delivers high-quality results. He is hardworking, and deeply committed to writing clean, efficient, and reliable code. Bhupendra approaches every project with great attention to detail and a strong problem-solving mindset. He is also a great team player who’s always ready to support and share knowledge with others. Any team would be lucky to have Bhupendra, a true professional with both skill and passion for Android development.",
     avatar: "./monika.jpeg",
+    reviewUrl:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7389621393136541696?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389621393136541696%2C7392757315650617344%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287392757315650617344%2Curn%3Ali%3Aactivity%3A7389621393136541696%29",
   },
   {
     name: "Ashwani Singla",
     jobRole: "Senior Software Engineer",
     review:
-      "I had the opportunity to work with Bhupendra for about a year on a project. Although we worked remotely, his professionalism and technical expertise as a developer were clearly evident. He consistently delivered high-quality work on time and communicated effectively throughout the project. I’d gladly recommend him for any future opportunities.",
+      "I had the opportunity to work with Bhupendra for about a year on a project. Although we worked remotely, his professionalism and technical expertise as a developer were clearly evident. He consistently delivered high-quality work on time and communicated effectively throughout the project. I’d gladly recommend him for any future opportunities. ",
     avatar: "./ashwin.jpeg",
+    reviewUrl:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7389621393136541696?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389621393136541696%2C7389699370335780864%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287389699370335780864%2Curn%3Ali%3Aactivity%3A7389621393136541696%29",
   },
   {
     name: "Faruk Khan",
@@ -56,8 +60,9 @@ export const reviews = [
     review:
       "It’s been a pleasure working with you, Bhupendra. Your communication skills and collaborative spirit have always helped create a strong bond within the team. Even while working remotely, it never felt like we were apart. Truly grateful for the valuable experiences.",
     avatar: "./farukh.jpeg",
+    reviewUrl:
+      "https://www.linkedin.com/feed/update/urn:li:activity:7389621393136541696?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389621393136541696%2C7389907473211617281%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287389907473211617281%2Curn%3Ali%3Aactivity%3A7389621393136541696%29",
   },
-  
 ];
 
 export const projects = [

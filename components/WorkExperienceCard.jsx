@@ -12,7 +12,7 @@ export default function WorkExperienceCard({
         <img
           src={companyLogoUrl}
           alt={`${companyName} logo`}
-          className="w-14 rounded-lg"
+          className="w-14 md:w-10 rounded-lg"
         />
       </div>
 

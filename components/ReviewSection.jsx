@@ -12,15 +12,24 @@ export default function ReviewSection() {
 
         <div
           className="
-            grid 
-            grid-cols-1 
+            grid
+            grid-cols-1
+            md:grid-cols-2
             mb-12
-
           "
         >
-          {reviews.map((review, idx) => (
-            <ReviewCard key={idx} {...review} />
-          ))}
+          {reviews.map((review, idx) => {
+            const shouldSpanTwo = (idx + 1) % 3 === 1;
+
+            return (
+              <div
+                key={idx}
+                className={shouldSpanTwo ? "md:col-span-2" : "md:col-span-1"}
+              >
+                <ReviewCard {...review} />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
