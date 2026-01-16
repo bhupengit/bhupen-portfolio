@@ -63,6 +63,13 @@ export const reviews = [
     reviewUrl:
       "https://www.linkedin.com/feed/update/urn:li:activity:7389621393136541696?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389621393136541696%2C7389907473211617281%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287389907473211617281%2Curn%3Ali%3Aactivity%3A7389621393136541696%29",
   },
+  {
+    name: "Jaydeep Pandya",
+    jobRole: "Technical Project Manager",
+    review: "I had the opportunity to work with you for the couple of years, and collaborating with you has always been a genuinely energizing experience. You bring a rare combination of strong technical expertise, continuous learning, and unwavering dedication to everything you do. You started with us as an Android developer and successfully transitioned yourself into a React Native developer — and the speed at which you learned and adapted was truly impressive. Your ability to grasp new technologies and immediately apply them in real-world scenarios reflects your strong learning mindset. Even while working remotely, your ownership, involvement, and availability made it feel like you were sitting just next door. You were always supportive, always ready to help, and always committed to delivering quality work without compromise. You’re not just a strong developer — you’re a reliable teammate, a fast learner, and someone who consistently brings value to the team through both your skills and your attitude. Any team would be lucky to have you. Wishing you great success in your new journey — you truly deserve it!",
+    avatar: "./jaydeep.jpeg",
+    reviewUrl:"https://www.linkedin.com/feed/update/urn:li:activity:7389621393136541696?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7389621393136541696%2C7402362112326574081%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287402362112326574081%2Curn%3Ali%3Aactivity%3A7389621393136541696%29",
+  },
 ];
 
 export const projects = [

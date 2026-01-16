@@ -1,6 +1,7 @@
+'use client'
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 
 export default function ReviewCard({
   review,
@@ -9,6 +10,8 @@ export default function ReviewCard({
   avatar,
   reviewUrl,
 }) {
+  const [expanded, setExpanded] = useState(false);
+
   return (
     <div
       className="
@@ -18,16 +21,33 @@ export default function ReviewCard({
         py-4 
         flex 
         flex-col 
-        gap-6 
+        gap-4
         hover:bg-secondary/40
         transition-all
         duration-200
       "
     >
-      <p className="text-md h-full">{review}</p>
+      {/* Review text */}
+      <p
+        className={`text-md  ${
+          expanded ? "line-clamp-none" : "line-clamp-3"
+        }`}
+      >
+        {review}
+      </p>
 
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-3 mt-auto">
+      {/* View more / less */}
+      {review.length > 120 && (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className="text-sm text-muted-foreground w-fit hover:underline"
+        >
+          {expanded ? "View less" : "View more"}
+        </button>
+      )}
+
+      <div className="flex items-center justify-between mt-auto">
+        <div className="flex items-center gap-3">
           <img
             className="w-10 h-10 rounded-full border border-border/70 object-cover"
             src={avatar}
